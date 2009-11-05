@@ -7,7 +7,7 @@ module Enumerable
       average_value = item.send(average_attribute)
       weight_value  = item.send(weight_attribute)
       
-      next if average_value.nil? || average_value == 0
+      next if average_value.nil?
       next if weight_value.nil?  || weight_value  == 0
       
       sum    += weight_value * average_value 
