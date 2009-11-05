@@ -1,0 +1,5 @@
+This is just a file that I have been needing so I finally wrote it.  Include it and it will be mixed in to Enumerable.  You can then call it like this:
+
+workers.weighted_average(:pay_rate, :total_hours)
+
+If you have suggestions on how to make this better, please let me know.  This solved my case that I needed.
